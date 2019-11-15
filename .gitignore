@@ -258,3 +258,4 @@ fabric.properties
 #
 .idea/
 venv/
+**/migrations/**
