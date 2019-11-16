@@ -259,3 +259,5 @@ fabric.properties
 .idea/
 venv/
 **/migrations/**
+.coverage
+job_description.txt
