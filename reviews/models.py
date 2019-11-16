@@ -5,11 +5,15 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 class Company(models.Model):
     pass
 
+
 class Reviewer(models.Model):
     pass
 
+
 class Review(models.Model):
-    rating = models.PositiveIntegerField("Rating", validators=(MinValueValidator(1), MaxValueValidator(5)))
+    rating = models.PositiveIntegerField(
+        "Rating", validators=(MinValueValidator(1), MaxValueValidator(5))
+    )
     title = models.CharField(max_length=64)
     sumary = models.TextField(max_length=10000)
     ip_address = models.GenericIPAddressField()
