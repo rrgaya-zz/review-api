@@ -2,14 +2,6 @@ from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
 
-class Company(models.Model):
-    pass
-
-
-class Reviewer(models.Model):
-    pass
-
-
 class Review(models.Model):
     rating = models.PositiveIntegerField(
         "Rating", validators=(MinValueValidator(1), MaxValueValidator(5))
