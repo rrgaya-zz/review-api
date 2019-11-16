@@ -1,8 +1,8 @@
-coverage
 flake8
 flake8-docstrings
 flake8-tuple
 flake8-quotes
+black
 # pin pydocstyle until https://gitlab.com/pycqa/flake8-docstrings/issues/36 is resolved
 pydocstyle
 requests
@@ -10,3 +10,5 @@ pytest==5.2.4
 pytest-django==3.7.0
 model_bakery
 mock
+coverage==4.5.4
+pytest-cov==2.8.1
