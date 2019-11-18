@@ -1,0 +1,78 @@
+-   model: reviews.company
+    pk: 1
+    fields:
+        name: Company 1
+-   model: reviews.company
+    pk: 2
+    fields:
+        name: Company 2
+-   model: reviews.review
+    pk: 1
+    fields:
+        rating: 5
+        title: Python Fluente
+        sumary: Its is better book of Python in the world
+        ip_address: 127.0.0.1
+        submited_date: 2019-11-16
+        company: 1
+        reviewer: 1
+-   model: reviews.review
+    pk: 6
+    fields:
+        rating: 4
+        title: Title Test
+        sumary: Test Sumary
+        ip_address: 127.0.0.1
+        submited_date: 2019-11-18
+        company: 1
+        reviewer: 1
+-   model: reviews.review
+    pk: 7
+    fields:
+        rating: 4
+        title: Title Test 2
+        sumary: Test Sumary
+        ip_address: 127.0.0.1
+        submited_date: 2019-11-18
+        company: 1
+        reviewer: 1
+-   model: reviews.review
+    pk: 9
+    fields:
+        rating: 4
+        title: Title Test 3
+        sumary: Test Sumary
+        ip_address: 127.0.0.1
+        submited_date: 2019-11-18
+        company: 1
+        reviewer: 1
+-   model: reviews.review
+    pk: 10
+    fields:
+        rating: 3
+        title: Caffex 2
+        sumary: Test Sumary Caffex
+        ip_address: 127.0.0.1
+        submited_date: 2019-11-18
+        company: 1
+        reviewer: 2
+-   model: reviews.review
+    pk: 11
+    fields:
+        rating: 3
+        title: Caffex 3
+        sumary: Test Sumary Caffex
+        ip_address: 127.0.0.1
+        submited_date: 2019-11-18
+        company: 1
+        reviewer: 2
+-   model: reviews.review
+    pk: 12
+    fields:
+        rating: 3
+        title: Caffex 4
+        sumary: Test Sumary Caffex
+        ip_address: 127.0.0.1
+        submited_date: 2019-11-18
+        company: 1
+        reviewer: 2
