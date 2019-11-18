@@ -73,28 +73,6 @@ For the sake of simplicity all the requirements are in the file *requirementes.t
 $ pip3 install  -r requirements.txt
 ``` 
 
-
-### STEP 5: Creating the tables
-
-```bash
-$ python manage.py makemigrations
-$ python manage.py migrate
-```
-
-### STEP 6: Creating a super user for Django
-
-```bash
-$ python manage.py createsuperuser
-```
-
-### STEP 7: Loading the initial data
-
-All required data for running the project and testing the application will be loaded using the following code:
-
-```bash
-$ python manage.py loaddata reviews/fixtures/initial_data_4tests.yaml
-```
-
 ## Running the project 	
 
 
@@ -152,6 +130,14 @@ rating=5 \
 sumary="Sumary Example" \
 title="Title Example" \
 ```
+
+## Superuser Access
+
+```bash
+User: admin
+Pass: 2019@252
+```
+
 
 
 [Python3]: <https://www.python.org/downloads>
