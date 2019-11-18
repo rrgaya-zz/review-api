@@ -90,6 +90,19 @@ $ source venv/bin/activate
 $ python manage.py runserver
 ```
 
+## How to running the tests? 	
+
+1. To run the test, execute:
+
+```bash
+$ pytest
+```
+
+2. To run the test with coverage, execute:
+
+```bash
+$ pytest --cov
+```
 
 ## Get Token API
 
