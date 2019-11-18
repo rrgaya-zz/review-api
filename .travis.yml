@@ -6,4 +6,6 @@ install:
   - pip install -U pip
   - pip install -r requirements.txt
 script:
-  - python manage.py test
+  - pytest
+after_success:
+  - coveralls
