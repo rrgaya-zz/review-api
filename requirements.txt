@@ -7,7 +7,7 @@ Click==7.0
 coverage==4.5.4
 coveralls==1.8.2
 decorator==4.4.1
-Django==2.2.7
+Django==2.2.24
 djangorestframework==3.10.3
 docopt==0.6.2
 idna==2.8
